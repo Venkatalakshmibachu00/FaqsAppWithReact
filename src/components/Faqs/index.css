@@ -1,0 +1,29 @@
+/* Write your code here. */
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+}
+.app-card {
+  background-color: #fff;
+  font-family: Roboto;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 20px;
+}
+.app-title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #cb8805;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.faqs-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
